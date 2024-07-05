@@ -1,8 +1,12 @@
+#!/usr/bin/env python3
 '''Task 100's module.
 '''
 from typing import Tuple, List
 
+
 def zoom_array(lst: Tuple, factor: int = 2) -> List:
+    '''Zooms in a tuple by a factor.
+    '''
     zoomed_in: List = [
         item for item in lst
         for i in range(int(factor))
