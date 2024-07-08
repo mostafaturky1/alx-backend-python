@@ -7,7 +7,7 @@ import asyncio
 wait_random = __import__('0-basic_async_syntax').wait_random
 
 
-def task_wait_random(max_delay: int):
+def task_wait_random(max_delay: int) -> asyncio.Task:
     '''Creates a coroutine that waits for a random amount of time between 0
     and `max_delay` seconds and returns the time in seconds.
     '''
