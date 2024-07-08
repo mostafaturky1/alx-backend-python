@@ -22,5 +22,5 @@ async def wait_n(n, max_delay):
     '''
     list_wait_times = []
     for i in range(n):
-        list_wait_times.append(await asyncio.gather(wait_random(max_delay)))
+        list_wait_times.append(* await asyncio.gather(wait_random(max_delay)))
     return sorted(list_wait_times)
