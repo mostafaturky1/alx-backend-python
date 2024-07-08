@@ -16,6 +16,6 @@ async def wait_random(max_delay: float = 10):
     Returns:
     float: The actual delay time in seconds.
     """
-    rendtime: float = random.uniform(0, max_delay)
+    rendtime = random.uniform(0, max_delay)
     await asyncio.sleep(rendtime)
     return float(rendtime)
