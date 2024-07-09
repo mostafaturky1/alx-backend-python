@@ -2,7 +2,6 @@
 '''Task 1's module.
 '''
 import asyncio
-import random
 from typing import List
 
 
